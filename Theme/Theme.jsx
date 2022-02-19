@@ -21,7 +21,12 @@ const components = {
             'DrawerLink' : {
                 pos : 'relative',
                 left: '27px'
-            }
+            },
+            'maTeub' : {
+                color: "green",
+                textAlign: "center",
+                fontSize: "2em"
+            },
         }
     }
 };
