@@ -42,6 +42,19 @@ const LeftMenu = () => {
                         <Divider mt = {10} />
                         
                         <DrawerHeader>Electroménager</DrawerHeader>
+                        <Text variant = "DrawerLink">Aspirateur</Text>
+                        <Text variant = "DrawerLink">Lave-vaisselle</Text>
+                        <Text variant = "DrawerLink">Cuiseur de riz</Text>
+                        <Text variant = "DrawerLink">Machine à laver</Text>
+                        <Text variant = "DrawerLink">Micro-ondes</Text>
+                        <Text variant = "DrawerLink">Fours</Text>
+                        <Divider mt={10}/>
+                        
+                        <DrawerHeader>Jeux vidéos</DrawerHeader>
+                        <Text variant = "DrawerLink">Playstation 5</Text>
+                        <Text variant = "DrawerLink">Playstation 4</Text>
+                        <Text variant = "DrawerLink">Xbox</Text>
+                        <Text variant = "DrawerLink">Wii</Text>
                     </DrawerBody>
                 </DrawerContent>
             </Drawer>
