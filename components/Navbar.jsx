@@ -1,12 +1,19 @@
-import React from 'react';
+import React from "react";
 import "../css/navbar.css";
 
- const Navbar = () => {
+const Navbar = () => {
   return (
     <>
-    <h1>La putain de navbar de Dan</h1>
+      <div></div>
+      <div>
+        <ul>
+          <li>HOME</li>
+          <li>RECHERCHE</li>
+          <li>DONATIONS / TIPS</li>
+        </ul>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
