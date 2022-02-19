@@ -1,11 +1,12 @@
 import theme from '../Theme/Theme';
 import { ChakraProvider } from '@chakra-ui/react';
-import LeftMenu from '../components/Left_Menu';
+import Navbar from '../components/navbar';
+import "../css/navbar.css";
 
 function MyApp({ Component, pageProps }) {
     return (
         <ChakraProvider theme={theme}>
-            <LeftMenu />
+            <Navbar />
             <Component {...pageProps} />
         </ChakraProvider>
     );
