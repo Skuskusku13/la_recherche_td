@@ -1,9 +1,16 @@
 import React from 'react';
+import { Button, Text, useColorMode } from '@chakra-ui/react';
 
 const Home = () => {
+    
+    const {toggleColorMode} = useColorMode()
+    const {colorMode} = useColorMode()
     return (
         <>
-            <h1>Bonjour et bienvenue sur notre site de recherche et comparation des prix.</h1>
+            <Text>hello From Home</Text>
+            <Button onClick={toggleColorMode}>
+                {colorMode === 'light' ? 'Dark' : 'Light'}
+            </Button>
         </>
     );
 };
